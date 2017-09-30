@@ -100,7 +100,7 @@ This time the vehicle performed much better and stayed on the track for most of 
 The final model architecture consisted of a convolution neural network with the following layers and layer sizes ...
 
 ____________________________________________________________________________________________________
-Layer (type)                     Output Shape          Param #     Connected to                     
+Layer (type)                     Output Shape          Param       Connected to                     
 ____________________________________________________________________________________________________
 lambda_1 (Lambda)                (None, 160, 320, 3)   0           lambda_input_1[0][0]             
 ____________________________________________________________________________________________________
