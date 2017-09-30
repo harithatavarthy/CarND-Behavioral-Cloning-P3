@@ -15,7 +15,7 @@ We also want you to create a detailed writeup of the project. Check out the [wri
 To meet specifications, the project will require submitting five files: 
 * model.py (script used to create and train the model)
 * drive.py (script to drive the car - feel free to modify this file)
-* model.h5 (a trained Keras model)
+* model.h9 (a trained Keras model)
 * a report writeup file (either markdown or pdf)
 * video.mp4 (a video recording of your vehicle driving autonomously around the track for at least one full lap)
 
@@ -63,7 +63,7 @@ model.save(filepath)
 Once the model has been saved, it can be used with drive.py using this command:
 
 ```sh
-python drive.py model.h5
+python drive.py model.h9
 ```
 
 The above command will load the trained model and use the model to make predictions on individual images in real-time and send the predicted angle back to the server via a websocket connection.
@@ -73,7 +73,7 @@ Note: There is known local system's setting issue with replacing "," with "." wh
 #### Saving a video of the autonomous agent
 
 ```sh
-python drive.py model.h5 run1
+python drive.py model.h9 run1
 ```
 
 The fourth argument, `run1`, is the directory in which to save the images seen by the agent. If the directory already exists, it'll be overwritten.
