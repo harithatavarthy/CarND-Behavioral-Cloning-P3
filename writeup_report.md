@@ -160,11 +160,11 @@ I then recorded the vehicle recovering from the left side and right sides of the
 
 
 
-![image.png](attachment:image.png)
+![Center Image - Recovery](images/center_2017_09_23_01_15_16_043.jpg)
 
-![image.png](attachment:image.png)
+![Center Image - Recovery](images/left_2017_09_23_01_15_16_043.jpg)
 
-![image.png](attachment:image.png)
+![Center Image - Recovery](images/right_2017_09_23_01_15_16_043.jpg)
 
 To augment the data sat, I also flipped images and angles thinking that this would increase the accuracy of my neural network. 
 
@@ -172,11 +172,11 @@ After the collection process, I had little over 50,000 images to train my networ
 
 I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 9 as evidenced by the graph below. 
 
-
+![NN Loss](images/download.png)
 
 I used an Adam optimizer so that manually training the learning rate wasn't necessary.
 
 
-![image.png](attachment:image.png)
 
-![Model Mean-square ](images/download.png)
+
+
