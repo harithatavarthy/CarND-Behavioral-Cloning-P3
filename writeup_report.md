@@ -179,3 +179,4 @@ I used an Adam optimizer so that manually training the learning rate wasn't nece
 
 ![image.png](attachment:image.png)
 
+![Model Mean-square ](images/download.png)
